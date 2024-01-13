@@ -1,0 +1,91 @@
+#root{
+  margin: 0 auto;
+}
+.container{
+  max-width:900px;
+  min-width: 400px;
+  background-color:rgb(40, 38, 38);
+  padding:10px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 4rem;
+  border: 1px rgba(15, 11, 2, 0.212) solid;
+  box-shadow:2px 10px 25px rgba(27, 23, 1, 0.525),-2px -10px 25px rgba(8, 4, 27, 0.329);
+}
+.list-container{
+  text-align: justify;
+  margin-top: 10px;
+}
+.heading{
+  margin-bottom: 0;
+}
+.message{
+  height: 10px;
+  text-transform:uppercase;
+}
+.list-container li{
+ font-size: 1.4rem;
+ color: rgb(111, 136, 156);
+}
+li:hover{
+  color:white;
+}
+.input-container{
+  display: flex;
+  place-items: center;
+  flex-direction:row;
+}
+.todo_inputBox{
+  flex: 1;
+  font-size: 1.8rem;
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: rgb(152, 148, 193);
+}
+.todo_addButton{
+  background-color: rgb(69, 66, 66);
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  padding:5px 10px;
+  margin-left: .3rem;
+  border-radius: 5px;
+  background-color: rgb(71, 77, 75);
+}
+
+.list-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:.8rem 2rem;
+  border-radius: 10px;
+}
+.list-item:hover{
+  background-color: rgb(37, 34, 34);
+}
+ul{
+  padding: 0;
+}
+.done-task{
+  text-decoration:line-through !important;
+}
+
+.icons{
+  margin-left: 2rem;
+  align-self:baseline;
+  min-width:10%;
+  font-size: 1.2rem;
+}
+.fa-pen-to-square{
+  color: rgb(45, 190, 45);
+}
+.fa-trash{
+  margin-right: .5rem;
+  color:rgb(178, 32, 61);
+}
+.fa-pen-to-square:hover{
+  color: rgb(14, 237, 14);
+}
+.fa-trash:hover{
+  color:rgb(241, 14, 60);
+}
+
